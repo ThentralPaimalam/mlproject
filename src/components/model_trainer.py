@@ -36,7 +36,7 @@ class ModelTrainer:
                 train_array[:,-1],
                 test_array[:,:-1],
                 test_array[:,-1]
-            )
+            ) 
             models = {
                 "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
