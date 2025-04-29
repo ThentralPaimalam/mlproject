@@ -3,7 +3,7 @@ import sys
 import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
-
+import dill
 from src.exception import CustomException
 
 def save_object(file_path, obj):
